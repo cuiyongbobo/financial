@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ErrorMessageViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NDS-KR-Vr9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="remand.png" translatesAutoresizingMaskIntoConstraints="NO" id="5N5-2Y-19M">
+                            <rect key="frame" x="148" y="45" width="80" height="131"/>
+                            <animations/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="阿欧" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nD3-GA-yqh">
+                            <rect key="frame" x="176" y="202" width="24" height="15"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="页面出错了,维护小哥正在拼命" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fyz-Lm-gkv">
+                            <rect key="frame" x="107" y="221" width="160" height="15"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="抢修中......" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gwY-zU-hg5">
+                            <rect key="frame" x="165" y="241" width="57" height="14"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="spq-m1-1rG">
+                            <rect key="frame" x="45" y="303" width="286" height="41"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="刷新试试" backgroundImage="btn-chucu.png"/>
+                            <state key="selected" backgroundImage="btn-chucu-over.png"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UW4-nO-BcG">
+                            <rect key="frame" x="301" y="453" width="42" height="21"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstItem="UW4-nO-BcG" firstAttribute="top" secondItem="spq-m1-1rG" secondAttribute="bottom" constant="109" id="0sz-Sp-TwV"/>
+                        <constraint firstItem="nD3-GA-yqh" firstAttribute="centerX" secondItem="NDS-KR-Vr9" secondAttribute="centerX" id="BAk-va-1So"/>
+                        <constraint firstAttribute="trailing" secondItem="UW4-nO-BcG" secondAttribute="trailing" constant="32" id="HbZ-27-0EB"/>
+                        <constraint firstItem="nD3-GA-yqh" firstAttribute="top" secondItem="5N5-2Y-19M" secondAttribute="bottom" constant="26" id="J7P-Oi-oxR"/>
+                        <constraint firstItem="gwY-zU-hg5" firstAttribute="top" secondItem="Fyz-Lm-gkv" secondAttribute="bottom" constant="5" id="NF3-fU-BAY"/>
+                        <constraint firstItem="Fyz-Lm-gkv" firstAttribute="centerX" secondItem="NDS-KR-Vr9" secondAttribute="centerX" id="PbQ-wS-5S2"/>
+                        <constraint firstItem="UW4-nO-BcG" firstAttribute="leading" secondItem="NDS-KR-Vr9" secondAttribute="leading" constant="301" id="a79-kT-Le3"/>
+                        <constraint firstItem="spq-m1-1rG" firstAttribute="centerX" secondItem="NDS-KR-Vr9" secondAttribute="centerX" id="ezE-OB-1J3"/>
+                        <constraint firstItem="5N5-2Y-19M" firstAttribute="top" secondItem="NDS-KR-Vr9" secondAttribute="top" constant="45" id="fd1-xc-Lan"/>
+                        <constraint firstItem="Fyz-Lm-gkv" firstAttribute="top" secondItem="nD3-GA-yqh" secondAttribute="bottom" constant="5" id="kgt-0m-MNY"/>
+                        <constraint firstItem="spq-m1-1rG" firstAttribute="top" secondItem="gwY-zU-hg5" secondAttribute="bottom" constant="48" id="pPT-Oc-yNj"/>
+                        <constraint firstItem="gwY-zU-hg5" firstAttribute="centerX" secondItem="NDS-KR-Vr9" secondAttribute="centerX" constant="5" id="t0Q-0Y-E4t"/>
+                        <constraint firstAttribute="bottom" secondItem="UW4-nO-BcG" secondAttribute="bottom" constant="193" id="xaM-EL-fpl"/>
+                        <constraint firstItem="5N5-2Y-19M" firstAttribute="centerX" secondItem="NDS-KR-Vr9" secondAttribute="centerX" id="xec-04-wke"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NDS-KR-Vr9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DZa-Mh-1oY"/>
+                <constraint firstItem="NDS-KR-Vr9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Hr5-al-kvL"/>
+                <constraint firstAttribute="bottom" secondItem="NDS-KR-Vr9" secondAttribute="bottom" id="JaN-Dm-ttE"/>
+                <constraint firstAttribute="trailing" secondItem="NDS-KR-Vr9" secondAttribute="trailing" id="rGY-s8-bmM"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="328.5" y="-386.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn-chucu-over.png" width="286" height="41"/>
+        <image name="btn-chucu.png" width="286" height="41"/>
+        <image name="remand.png" width="80" height="131"/>
+    </resources>
+</document>

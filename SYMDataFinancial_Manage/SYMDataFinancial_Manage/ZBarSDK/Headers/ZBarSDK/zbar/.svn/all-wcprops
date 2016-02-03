@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar
+END
+Scanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Scanner.h
+END
+ImageScanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/ImageScanner.h
+END
+Exception.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Exception.h
+END
+Processor.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Processor.h
+END
+Image.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Image.h
+END
+Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Decoder.h
+END
+Symbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Symbol.h
+END
+Video.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Video.h
+END
+Window.h
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar/Window.h
+END

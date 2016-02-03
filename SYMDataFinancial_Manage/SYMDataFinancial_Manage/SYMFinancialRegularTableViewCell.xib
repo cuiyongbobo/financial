@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="SYMFinancialRegularTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可提现余额(元):" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pjR-tE-AoA">
+                        <rect key="frame" x="15" y="18" width="78" height="14"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lFE-Rm-UL3">
+                        <rect key="frame" x="98" y="15" width="50" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GKa-Ck-F1x">
+                        <rect key="frame" x="248" y="14" width="57" height="23"/>
+                        <animations/>
+                        <state key="normal" title="体现" backgroundImage="cash.png">
+                            <color key="titleColor" red="0.25882352941176467" green="0.66666666666666663" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pbD-EC-gJS">
+                        <rect key="frame" x="-2" y="66" width="324" height="12"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.94901960784313721" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="xTh-SD-fZe"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="lFE-Rm-UL3" firstAttribute="leading" secondItem="pjR-tE-AoA" secondAttribute="trailing" constant="5" id="490-c3-pfN"/>
+                    <constraint firstItem="pbD-EC-gJS" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" constant="10" id="6Qw-wc-dBV"/>
+                    <constraint firstItem="pbD-EC-gJS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-10" id="8Nf-yy-la3"/>
+                    <constraint firstItem="lFE-Rm-UL3" firstAttribute="centerY" secondItem="pjR-tE-AoA" secondAttribute="centerY" id="L1l-Ip-qft"/>
+                    <constraint firstItem="pjR-tE-AoA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="NbR-gy-CY1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="pbD-EC-gJS" secondAttribute="trailing" constant="-10" id="Upz-rg-e1M"/>
+                    <constraint firstAttribute="trailing" secondItem="GKa-Ck-F1x" secondAttribute="trailing" constant="15" id="Xe0-9F-S7c"/>
+                    <constraint firstItem="pjR-tE-AoA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="fyA-S1-6pK"/>
+                    <constraint firstItem="GKa-Ck-F1x" firstAttribute="centerY" secondItem="pjR-tE-AoA" secondAttribute="centerY" id="hso-Xm-myU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="ReflectBalance" destination="lFE-Rm-UL3" id="WPO-ue-v7p"/>
+                <outlet property="Reflectbutton" destination="GKa-Ck-F1x" id="lgz-aZ-FXp"/>
+            </connections>
+            <point key="canvasLocation" x="283" y="306.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cash.png" width="57" height="23"/>
+    </resources>
+</document>

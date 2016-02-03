@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYMAssetTakeOutResultsViewController">
+            <connections>
+                <outlet property="BDAssetTableView" destination="z3N-xI-19N" id="kJa-5c-ZoS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="z3N-xI-19N">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="587"/>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.94901960784313721" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="xKE-tG-d1G"/>
+                        <outlet property="delegate" destination="-1" id="rid-8B-Krc"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" tag="400" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoR-ZN-bwQ">
+                    <rect key="frame" x="44" y="606" width="286" height="41"/>
+                    <state key="normal" title="确定" backgroundImage="btn-chucu.png"/>
+                    <state key="selected" backgroundImage="btn-chucu-over.png"/>
+                    <connections>
+                        <action selector="btnclick:" destination="-1" eventType="touchUpInside" id="Wc1-Ji-Rew"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="z3N-xI-19N" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1Rz-6i-iuU"/>
+                <constraint firstItem="PoR-ZN-bwQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="7ly-wt-abV"/>
+                <constraint firstAttribute="bottom" secondItem="PoR-ZN-bwQ" secondAttribute="bottom" constant="20" id="ds3-Aj-z9r"/>
+                <constraint firstItem="z3N-xI-19N" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gm1-0r-amu"/>
+                <constraint firstAttribute="bottom" secondItem="z3N-xI-19N" secondAttribute="bottom" constant="80" id="mMt-5w-WSm"/>
+                <constraint firstAttribute="trailing" secondItem="z3N-xI-19N" secondAttribute="trailing" id="r1m-sV-12U"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="625.5" y="195.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn-chucu-over.png" width="286" height="41"/>
+        <image name="btn-chucu.png" width="286" height="41"/>
+    </resources>
+</document>

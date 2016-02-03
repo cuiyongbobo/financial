@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode
+END
+QRCodeGenerator.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/QRCodeGenerator.m
+END
+bitstream.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/bitstream.h
+END
+split.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/split.h
+END
+qrencode.c
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrencode.c
+END
+mask.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/mask.h
+END
+qrspec.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrspec.h
+END
+qrinput.c
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrinput.c
+END
+qrencode.h
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrencode.h
+END
+qrinput.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrinput.h
+END
+rscode.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/rscode.c
+END
+rscode.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/rscode.h
+END
+QRCodeGenerator.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/QRCodeGenerator.h
+END
+bitstream.c
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/bitstream.c
+END
+split.c
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/split.c
+END
+mask.c
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/mask.c
+END
+qrspec.c
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/libqrencode/qrspec.c
+END

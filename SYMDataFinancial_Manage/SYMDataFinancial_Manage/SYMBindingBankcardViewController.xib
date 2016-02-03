@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYMBindingBankcardViewController">
+            <connections>
+                <outlet property="BDtableView" destination="JEw-iK-9QH" id="bIR-Pv-Nc1"/>
+                <outlet property="tableHeight" destination="T7v-yI-gWW" id="F0Q-0h-Pr0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已绑定银行卡" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3zV-vr-DCn">
+                    <rect key="frame" x="15" y="14" width="66" height="14"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="温馨提示:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k6G-Eb-aRL">
+                    <rect key="frame" x="15" y="106" width="48" height="14"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="如已绑定银行卡，不支持换卡，若要换卡请联系客户变更。" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yLM-B7-Ok5">
+                    <rect key="frame" x="15" y="149" width="286" height="14"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="为了更严格保障用户的资金安全，绑定和赎回银行卡必须一致，" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PDE-E7-X0M">
+                    <rect key="frame" x="15" y="129" width="308" height="14"/>
+                    <animations/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JEw-iK-9QH">
+                    <rect key="frame" x="0.0" y="35" width="375" height="54"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="T7v-yI-gWW"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="DTT-yS-QTd"/>
+                        <outlet property="delegate" destination="-1" id="4SS-uC-gry"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JEw-iK-9QH" secondAttribute="trailing" id="05W-Bp-YZJ"/>
+                <constraint firstItem="yLM-B7-Ok5" firstAttribute="leading" secondItem="PDE-E7-X0M" secondAttribute="leading" id="7gV-tp-yDa"/>
+                <constraint firstItem="JEw-iK-9QH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="GoP-zZ-6sQ"/>
+                <constraint firstItem="PDE-E7-X0M" firstAttribute="top" secondItem="k6G-Eb-aRL" secondAttribute="bottom" constant="9" id="Gus-Hg-4tj"/>
+                <constraint firstItem="3zV-vr-DCn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="IlU-Gt-v3t"/>
+                <constraint firstItem="k6G-Eb-aRL" firstAttribute="top" secondItem="JEw-iK-9QH" secondAttribute="bottom" constant="17" id="QLJ-uN-Qxo"/>
+                <constraint firstItem="k6G-Eb-aRL" firstAttribute="leading" secondItem="3zV-vr-DCn" secondAttribute="leading" id="dc8-XO-ODX"/>
+                <constraint firstItem="3zV-vr-DCn" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="14" id="frh-1k-2fy"/>
+                <constraint firstItem="PDE-E7-X0M" firstAttribute="leading" secondItem="k6G-Eb-aRL" secondAttribute="leading" id="u77-gl-nKC"/>
+                <constraint firstItem="yLM-B7-Ok5" firstAttribute="top" secondItem="PDE-E7-X0M" secondAttribute="bottom" constant="6" id="w2i-IJ-jeA"/>
+                <constraint firstItem="JEw-iK-9QH" firstAttribute="top" secondItem="3zV-vr-DCn" secondAttribute="bottom" constant="7" id="zBQ-W8-z25"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="306.5" y="337.5"/>
+        </view>
+    </objects>
+</document>

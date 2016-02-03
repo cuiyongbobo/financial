@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYMServiceAgreementViewController">
+            <connections>
+                <outlet property="BDWebView" destination="hc1-RE-fGq" id="geW-tc-g5S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hc1-RE-fGq">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <animations/>
+                    <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="deviceRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="aSb-yd-SzP"/>
+                    </connections>
+                </webView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.93725490196078431" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hc1-RE-fGq" secondAttribute="bottom" id="PZE-rU-31i"/>
+                <constraint firstItem="hc1-RE-fGq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ub6-3G-hjk"/>
+                <constraint firstAttribute="trailing" secondItem="hc1-RE-fGq" secondAttribute="trailing" id="i7c-MA-zvX"/>
+                <constraint firstItem="hc1-RE-fGq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jh4-Cn-9RY"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="493.5" y="419.5"/>
+        </view>
+    </objects>
+</document>

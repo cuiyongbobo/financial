@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK
+END
+ZBarHelpController.h
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarHelpController.h
+END
+ZBarImageScanner.h
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarImageScanner.h
+END
+ZBarReaderView.h
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarReaderView.h
+END
+zbar.h
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/zbar.h
+END
+ZBarReaderViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarReaderViewController.h
+END
+ZBarSDK.h
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarSDK.h
+END
+ZBarImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarImage.h
+END
+ZBarSymbol.h
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarSymbol.h
+END
+ZBarCaptureReader.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarCaptureReader.h
+END
+ZBarReaderController.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarReaderController.h
+END
+ZBarCameraSimulator.h
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/project/!svn/ver/12869/trunk/app/ios/BitMainWallet_HotUpdate/BitMainWallet_Hot/ZBarSDK/Headers/ZBarSDK/ZBarCameraSimulator.h
+END

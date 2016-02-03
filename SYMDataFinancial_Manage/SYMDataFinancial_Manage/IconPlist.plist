@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>CMB</string>
+	<string>ABC</string>
+	<string>BOC</string>
+	<string>ICBC</string>
+	<string>CCB</string>
+	<string>CIB</string>
+	<string>CEB</string>
+	<string>CNCB</string>
+	<string>GDB</string>
+	<string>CMBC</string>
+	<string>HXB</string>
+	<string>PAB</string>
+	<string>SPDB</string>
+</array>
+</plist>

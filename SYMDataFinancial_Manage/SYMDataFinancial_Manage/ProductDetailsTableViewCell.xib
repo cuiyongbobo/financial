@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="ProductDetailsTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="322" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="322" height="94"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="%" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td0-yg-6Id">
+                        <rect key="frame" x="303" y="18" width="9" height="14"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2KO-8j-rXe">
+                        <rect key="frame" x="289" y="18" width="14" height="14"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6,000,000.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGv-Xc-V0r">
+                        <rect key="frame" x="15" y="43" width="98" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="发售总额（元）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EbH-RH-IMt">
+                        <rect key="frame" x="15" y="69" width="77" height="14"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30,000.00" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0hk-ac-cGW">
+                        <rect key="frame" x="204" y="43" width="75" height="20"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="0.50588235294117645" blue="0.023529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="剩余金额(元)" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o19-m8-WNg">
+                        <rect key="frame" x="216" y="69" width="63" height="14"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I3P-Jz-LNJ">
+                        <rect key="frame" x="15" y="22" width="264" height="7"/>
+                        <animations/>
+                        <color key="tintColor" red="0.25882352941176467" green="0.66666666666666663" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="7" id="Ryl-7U-VnC"/>
+                        </constraints>
+                    </progressView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="Td0-yg-6Id" firstAttribute="leading" secondItem="2KO-8j-rXe" secondAttribute="trailing" id="4dY-2I-M7X"/>
+                    <constraint firstItem="0hk-ac-cGW" firstAttribute="trailing" secondItem="I3P-Jz-LNJ" secondAttribute="trailing" id="6Mm-mK-uxv"/>
+                    <constraint firstItem="EbH-RH-IMt" firstAttribute="top" secondItem="qGv-Xc-V0r" secondAttribute="bottom" constant="6" id="6Px-aE-K6o"/>
+                    <constraint firstItem="EbH-RH-IMt" firstAttribute="leading" secondItem="qGv-Xc-V0r" secondAttribute="leading" id="UVm-6Q-lkr"/>
+                    <constraint firstItem="o19-m8-WNg" firstAttribute="centerY" secondItem="EbH-RH-IMt" secondAttribute="centerY" id="UaE-pb-sdv"/>
+                    <constraint firstItem="I3P-Jz-LNJ" firstAttribute="height" secondItem="2KO-8j-rXe" secondAttribute="height" id="Xrm-AF-F5q"/>
+                    <constraint firstItem="2KO-8j-rXe" firstAttribute="centerY" secondItem="Td0-yg-6Id" secondAttribute="centerY" id="Y3X-t5-kCv"/>
+                    <constraint firstAttribute="trailing" secondItem="Td0-yg-6Id" secondAttribute="trailing" constant="10" id="YOr-1Z-Z5X"/>
+                    <constraint firstItem="qGv-Xc-V0r" firstAttribute="leading" secondItem="I3P-Jz-LNJ" secondAttribute="leading" id="c20-bU-VA0"/>
+                    <constraint firstItem="o19-m8-WNg" firstAttribute="trailing" secondItem="0hk-ac-cGW" secondAttribute="trailing" id="cI3-ON-7GA"/>
+                    <constraint firstItem="0hk-ac-cGW" firstAttribute="centerY" secondItem="qGv-Xc-V0r" secondAttribute="centerY" id="dIR-tK-ujr"/>
+                    <constraint firstItem="I3P-Jz-LNJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="hu9-MY-U6i"/>
+                    <constraint firstItem="I3P-Jz-LNJ" firstAttribute="centerY" secondItem="Td0-yg-6Id" secondAttribute="centerY" id="itj-AV-9IH"/>
+                    <constraint firstItem="2KO-8j-rXe" firstAttribute="leading" secondItem="I3P-Jz-LNJ" secondAttribute="trailing" constant="10" id="lie-ng-J4n"/>
+                    <constraint firstItem="qGv-Xc-V0r" firstAttribute="top" secondItem="I3P-Jz-LNJ" secondAttribute="bottom" constant="14" id="rLz-5I-h3y"/>
+                    <constraint firstItem="Td0-yg-6Id" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="ydL-B7-0Fq"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Xrm-AF-F5q"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="DetailProgress" destination="I3P-Jz-LNJ" id="RhV-av-8wO"/>
+                <outlet property="ProgressPercentage" destination="2KO-8j-rXe" id="eXr-V8-KfS"/>
+                <outlet property="SaleTotalBalance" destination="qGv-Xc-V0r" id="QSU-uY-EWc"/>
+                <outlet property="remainingTotalBalance" destination="0hk-ac-cGW" id="cTv-LH-aZJ"/>
+            </connections>
+            <point key="canvasLocation" x="459" y="-291.5"/>
+        </tableViewCell>
+    </objects>
+</document>

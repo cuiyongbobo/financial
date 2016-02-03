@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="SYMBindCardTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="390" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-yinhang1.png" translatesAutoresizingMaskIntoConstraints="NO" id="2r0-oY-1kk">
+                        <rect key="frame" x="15" y="26" width="24" height="24"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="****" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fe8-3G-58g">
+                        <rect key="frame" x="144" y="29" width="30" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3362" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Yj-JH-dw0">
+                        <rect key="frame" x="174" y="29" width="37" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(储蓄卡)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rir-4M-1CU">
+                        <rect key="frame" x="211" y="29" width="56" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中国交通银行" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-t0-H1t">
+                        <rect key="frame" x="54" y="29" width="90" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="3Yj-JH-dw0" firstAttribute="centerY" secondItem="wYN-t0-H1t" secondAttribute="centerY" id="6K8-GG-CyU"/>
+                    <constraint firstItem="Rir-4M-1CU" firstAttribute="leading" secondItem="3Yj-JH-dw0" secondAttribute="trailing" id="Aaf-Ou-vd5"/>
+                    <constraint firstItem="Fe8-3G-58g" firstAttribute="centerY" secondItem="wYN-t0-H1t" secondAttribute="centerY" id="VA4-tk-znZ"/>
+                    <constraint firstItem="Rir-4M-1CU" firstAttribute="centerY" secondItem="3Yj-JH-dw0" secondAttribute="centerY" id="aDt-yq-fBP"/>
+                    <constraint firstItem="wYN-t0-H1t" firstAttribute="leading" secondItem="2r0-oY-1kk" secondAttribute="trailing" constant="15" id="cEB-SU-TRX"/>
+                    <constraint firstItem="Fe8-3G-58g" firstAttribute="leading" secondItem="wYN-t0-H1t" secondAttribute="trailing" id="iNg-aI-CQ4"/>
+                    <constraint firstItem="3Yj-JH-dw0" firstAttribute="leading" secondItem="Fe8-3G-58g" secondAttribute="trailing" id="jD7-QS-j3r"/>
+                    <constraint firstItem="wYN-t0-H1t" firstAttribute="centerY" secondItem="2r0-oY-1kk" secondAttribute="centerY" id="mSm-xb-acE"/>
+                    <constraint firstItem="2r0-oY-1kk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="nd7-oc-O3b"/>
+                    <constraint firstItem="2r0-oY-1kk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="sl5-yr-hnX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="BankIcon" destination="2r0-oY-1kk" id="PgA-St-G2c"/>
+                <outlet property="BankName" destination="wYN-t0-H1t" id="zNu-9F-Jhx"/>
+                <outlet property="BankNo" destination="3Yj-JH-dw0" id="g8d-M0-9TO"/>
+            </connections>
+            <point key="canvasLocation" x="496" y="421"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon-yinhang1.png" width="24" height="24"/>
+    </resources>
+</document>

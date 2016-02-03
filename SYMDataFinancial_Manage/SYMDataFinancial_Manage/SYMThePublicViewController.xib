@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYMThePublicViewController">
+            <connections>
+                <outlet property="QrcodeImageView" destination="dbt-Pa-2yb" id="tab-Jp-czL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QT2-nc-aO7">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="和理财官方微信公众号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BHQ-mP-7vD">
+                            <rect key="frame" x="122" y="55" width="130" height="16"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.25882352941176467" green="0.66666666666666663" blue="0.89803921568627454" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dbt-Pa-2yb">
+                            <rect key="frame" x="112" y="91" width="150" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="150" id="UH5-st-iPL"/>
+                                <constraint firstAttribute="height" constant="150" id="fZn-7p-uKk"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="打开微信,添加朋友-公众号直接搜索" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lh0-oh-UHJ">
+                            <rect key="frame" x="100" y="306" width="174" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="“和理财2015”即可添加" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ldY-BG-dd5">
+                            <rect key="frame" x="120" y="325" width="114" height="14"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6I4-Xi-T5g">
+                            <rect key="frame" x="166" y="393" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ldY-BG-dd5" firstAttribute="top" secondItem="lh0-oh-UHJ" secondAttribute="bottom" constant="5" id="00Y-Oz-91c"/>
+                        <constraint firstItem="6I4-Xi-T5g" firstAttribute="top" secondItem="ldY-BG-dd5" secondAttribute="bottom" constant="54" id="AzT-Xj-KEV"/>
+                        <constraint firstItem="6I4-Xi-T5g" firstAttribute="leading" secondItem="QT2-nc-aO7" secondAttribute="leading" constant="166" id="Elr-MH-ZWz"/>
+                        <constraint firstItem="lh0-oh-UHJ" firstAttribute="centerX" secondItem="QT2-nc-aO7" secondAttribute="centerX" id="HCX-FL-n7D"/>
+                        <constraint firstItem="BHQ-mP-7vD" firstAttribute="centerX" secondItem="QT2-nc-aO7" secondAttribute="centerX" id="abb-ie-loo"/>
+                        <constraint firstAttribute="bottom" secondItem="6I4-Xi-T5g" secondAttribute="bottom" constant="253" id="dTS-fh-FWO"/>
+                        <constraint firstItem="BHQ-mP-7vD" firstAttribute="top" secondItem="QT2-nc-aO7" secondAttribute="top" constant="55" id="dtO-lY-OUr"/>
+                        <constraint firstAttribute="trailing" secondItem="6I4-Xi-T5g" secondAttribute="trailing" constant="167" id="iFK-wU-xJW"/>
+                        <constraint firstItem="dbt-Pa-2yb" firstAttribute="centerX" secondItem="QT2-nc-aO7" secondAttribute="centerX" id="iJv-u7-zIR"/>
+                        <constraint firstItem="lh0-oh-UHJ" firstAttribute="top" secondItem="dbt-Pa-2yb" secondAttribute="bottom" constant="65" id="nl2-Ae-OlA"/>
+                        <constraint firstItem="ldY-BG-dd5" firstAttribute="leading" secondItem="lh0-oh-UHJ" secondAttribute="leading" constant="20" id="see-lL-89c"/>
+                        <constraint firstItem="dbt-Pa-2yb" firstAttribute="top" secondItem="BHQ-mP-7vD" secondAttribute="bottom" constant="20" id="yEL-AG-jmw"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QT2-nc-aO7" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2ui-TH-EsA"/>
+                <constraint firstAttribute="bottom" secondItem="QT2-nc-aO7" secondAttribute="bottom" id="KwJ-Ga-hWg"/>
+                <constraint firstAttribute="trailing" secondItem="QT2-nc-aO7" secondAttribute="trailing" id="PhA-13-ZZW"/>
+                <constraint firstItem="QT2-nc-aO7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="R0i-W1-l6A"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="576.5" y="393.5"/>
+        </view>
+    </objects>
+</document>

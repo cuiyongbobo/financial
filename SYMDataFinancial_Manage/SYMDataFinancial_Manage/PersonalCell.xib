@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="PersonalCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_lock.png" translatesAutoresizingMaskIntoConstraints="NO" id="DOB-hL-Z2h">
+                        <rect key="frame" x="20" y="21" width="14" height="18"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ygX-Vg-Ov8">
+                        <rect key="frame" x="244" y="21" width="38" height="18"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="enter_arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="n2p-G2-zSl">
+                        <rect key="frame" x="302" y="23" width="8" height="14"/>
+                        <animations/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vE8-rR-kOO">
+                        <rect key="frame" x="54" y="21" width="38" height="18"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="38" id="2hm-0i-OIb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2hm-0i-OIb"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstItem="ygX-Vg-Ov8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0kc-EG-CH6"/>
+                    <constraint firstItem="n2p-G2-zSl" firstAttribute="leading" secondItem="ygX-Vg-Ov8" secondAttribute="trailing" constant="20" id="4WC-sh-UiQ"/>
+                    <constraint firstItem="vE8-rR-kOO" firstAttribute="leading" secondItem="DOB-hL-Z2h" secondAttribute="trailing" constant="20" id="HRc-sh-VvA"/>
+                    <constraint firstItem="DOB-hL-Z2h" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Heg-hH-Xnn"/>
+                    <constraint firstItem="n2p-G2-zSl" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="XZ7-th-1C2"/>
+                    <constraint firstItem="vE8-rR-kOO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="rVU-Mm-pSe"/>
+                    <constraint firstAttribute="trailing" secondItem="n2p-G2-zSl" secondAttribute="trailing" constant="10" id="sSQ-Uo-x5w"/>
+                    <constraint firstItem="DOB-hL-Z2h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ywW-1j-SaG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <connections>
+                <outlet property="ArrowImageView" destination="n2p-G2-zSl" id="zLN-he-Iyy"/>
+                <outlet property="IconLeftImageView" destination="DOB-hL-Z2h" id="Ah7-CC-oHQ"/>
+                <outlet property="InformationLeft" destination="vE8-rR-kOO" id="T0C-we-htN"/>
+                <outlet property="InformationRight" destination="ygX-Vg-Ov8" id="XXO-9A-psx"/>
+            </connections>
+            <point key="canvasLocation" x="252" y="238"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="enter_arrow.png" width="8" height="14"/>
+        <image name="icon_lock.png" width="14" height="18"/>
+    </resources>
+</document>

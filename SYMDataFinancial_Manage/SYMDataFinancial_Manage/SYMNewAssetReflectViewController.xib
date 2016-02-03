@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SYMNewAssetReflectViewController">
+            <connections>
+                <outlet property="CanreflectLabel" destination="5Zf-4C-5gY" id="xRR-DT-HLw"/>
+                <outlet property="tableview" destination="TMk-nr-5Gb" id="ndQ-dL-2WT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可提现余额(元)：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nab-JJ-RiW">
+                    <rect key="frame" x="12" y="22" width="93" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10,000.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Zf-4C-5gY">
+                    <rect key="frame" x="105" y="19" width="77" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="TMk-nr-5Gb">
+                    <rect key="frame" x="15" y="60" width="345" height="494"/>
+                    <color key="backgroundColor" red="0.9137254901960784" green="0.94901960784313721" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="zdy-78-dZq"/>
+                        <outlet property="delegate" destination="-1" id="xge-iY-a4G"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="提现说明:您的投资项目使用多张卡支付,为保障资金安全同卡进出,你的资金将" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWT-q2-c8D">
+                    <rect key="frame" x="12" y="574" width="340" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="202" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apb-Cm-Bgp">
+                    <rect key="frame" x="45" y="623" width="285" height="44"/>
+                    <state key="normal" title="提现" backgroundImage="btn.png"/>
+                    <connections>
+                        <action selector="ClickBtn:" destination="-1" eventType="touchUpInside" id="mNQ-ew-L1T"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="提现至各投资项目的卡支付" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VnG-YQ-yum">
+                    <rect key="frame" x="52" y="591" width="120" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VnG-YQ-yum" firstAttribute="leading" secondItem="Nab-JJ-RiW" secondAttribute="leading" constant="40" id="EH6-WE-pj4"/>
+                <constraint firstItem="aWT-q2-c8D" firstAttribute="top" secondItem="TMk-nr-5Gb" secondAttribute="bottom" constant="20" id="GXK-7G-Xm4"/>
+                <constraint firstItem="aWT-q2-c8D" firstAttribute="leading" secondItem="Nab-JJ-RiW" secondAttribute="leading" id="IVs-5B-cGf"/>
+                <constraint firstItem="TMk-nr-5Gb" firstAttribute="top" secondItem="5Zf-4C-5gY" secondAttribute="bottom" constant="20" id="OMj-ry-F39"/>
+                <constraint firstItem="apb-Cm-Bgp" firstAttribute="top" secondItem="VnG-YQ-yum" secondAttribute="bottom" constant="20" id="P52-Qn-xwU"/>
+                <constraint firstItem="Nab-JJ-RiW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="RD4-76-4wR"/>
+                <constraint firstAttribute="bottom" secondItem="apb-Cm-Bgp" secondAttribute="bottom" id="Z0p-ps-VhU"/>
+                <constraint firstItem="Nab-JJ-RiW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="22" id="agu-hT-fha"/>
+                <constraint firstItem="5Zf-4C-5gY" firstAttribute="leading" secondItem="Nab-JJ-RiW" secondAttribute="trailing" id="cA1-IC-0vf"/>
+                <constraint firstItem="TMk-nr-5Gb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="lgF-BQ-c6H"/>
+                <constraint firstAttribute="trailing" secondItem="TMk-nr-5Gb" secondAttribute="trailing" constant="15" id="pKB-U7-WgL"/>
+                <constraint firstItem="5Zf-4C-5gY" firstAttribute="centerY" secondItem="Nab-JJ-RiW" secondAttribute="centerY" id="vca-6l-VTk"/>
+                <constraint firstItem="VnG-YQ-yum" firstAttribute="top" secondItem="aWT-q2-c8D" secondAttribute="bottom" constant="5" id="xZY-xF-xGO"/>
+                <constraint firstItem="apb-Cm-Bgp" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="zN9-GU-KZ8"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="372.5" y="28.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="btn.png" width="285" height="44"/>
+    </resources>
+</document>
